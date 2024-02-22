@@ -1,11 +1,11 @@
 #!/usr/bin/node
 /*
-    Print a square with the character #
+    Print a square with the character
     
     The size of the square must be the first argument 
     of the program.
     
-    this code have problems before because radix argument is hexadecimal
+    This code have problems before because radix argument is hexadecimal
 */
 
 
@@ -27,4 +27,3 @@ for (let i = 0 ; i < size ; i ++) {
     }
     process.stdout.write("\n");
 }
-
